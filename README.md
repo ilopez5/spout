@@ -32,5 +32,4 @@ pb.end()
 - `color` - allows for colored output vs uncolored.
 
 ## Example:
-[![asciicast](https://asciinema.org/a/X52Ww5FOObrc9Hn7irKSMObpF.svg)](https://asciinema.org/a/X52Ww5FOObrc9Hn7irKSMObpF)
-
+[![asciicast](https://asciinema.org/a/shtO7TgOfkMGdbeBdErE9LeHM.svg)](https://asciinema.org/a/shtO7TgOfkMGdbeBdErE9LeHM)

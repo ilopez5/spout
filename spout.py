@@ -64,8 +64,5 @@ class ProgressBar():
         elapsed = round(self._current - self._start, 2)
         return f"{prefix}[{used}{free}] {elapsed:.2f}s"
 
-def main():
-    print("Run with 'tests.py'")
-
 if __name__ == '__main__':
-    main()
+    pass
