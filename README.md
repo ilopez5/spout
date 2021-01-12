@@ -1,4 +1,4 @@
-[![Generic badge](https://img.shields.io/badge/Stage-v1.0-blue.svg)](#)
+[![Generic badge](https://img.shields.io/badge/Stage-v1.1-blue.svg)](#)
 
 # SPOUT
 
