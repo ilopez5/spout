@@ -12,17 +12,17 @@ iterable as the aforementioned libraries seem to do.
 
 ## Usage:
 ```python
-pb = ProgressBar(stages=10, width=30, pad=30, color=True)
+pb = ProgressBar(width=30, pad=30, color=True)
 
-pb.begin("Performing Operation 1")
+pb.begin(label="Performing Operation 1", stages=10)
 pb.checkpoint()
 ...
 pb.checkpoint()
-pb.reset()
+pb.end()
 
-pb.begin("Performing Operation 2")
+pb.begin(label="Performing Operation 2", stages=5)
 ...
-pb.reset()
+pb.end()
 ```
 
 ## Configurations:
@@ -31,6 +31,6 @@ pb.reset()
 - `pad`   - sets the width (in characters) of the label + padding (e.g."Label...")
 - `color` - allows for colored output vs uncolored.
 
-## Examples:
+## Example:
 [![asciicast](https://asciinema.org/a/X52Ww5FOObrc9Hn7irKSMObpF.svg)](https://asciinema.org/a/X52Ww5FOObrc9Hn7irKSMObpF)
 
